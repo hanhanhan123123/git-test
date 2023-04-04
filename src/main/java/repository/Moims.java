@@ -43,6 +43,8 @@ public class Moims {
 			return -1;
 		}
 	}
+		
+
 
 	public static List<Moim> findLatest() {
 		try {

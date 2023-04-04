@@ -9,7 +9,7 @@
 		ON USERS.AVATAR_ID = AVATARS.ID
 		WHERE USERS.ID = #{id }
 	</select>
-	<insert id="create" parameterType="java.util.HashMap">
+	<insert id="create" parameterType="String">
 		INSERT INTO USERS(ID, PASS, NAME, AVATAR_ID) VALUES(#{id}, #{pass}, #{name}, #{avatarId} )
 	</insert>
 </mapper>

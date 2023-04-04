@@ -21,6 +21,9 @@ public class Moim {
 	String managerName;
 	String managerAvatarURL;
 	
+	String moimId;
+	String writer;
+	String comment;
 	
 	public String getManagerName() {
 		return managerName;
@@ -101,6 +104,26 @@ public class Moim {
 		this.finalCost = finalCost;
 	}
 	
+	
+	
+	public String getMoimId() {
+		return moimId;
+	}
+	public void setMoimId(String moimId) {
+		this.moimId = moimId;
+	}
+	public String getWriter() {
+		return writer;
+	}
+	public void setWriter(String writer) {
+		this.writer = writer;
+	}
+	public String getComment() {
+		return comment;
+	}
+	public void setComment(String comment) {
+		this.comment = comment;
+	}
 	// 테스트 해보고 싶을때 사용 Source Generate toString
 	@Override
 	public String toString() {
