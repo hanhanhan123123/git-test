@@ -27,6 +27,7 @@ public class MoimAddReplyTaskController extends HttpServlet {
 		String ment = req.getParameter("ment");
 		String moimId = req.getParameter("moimId");
 
+		//myBatis쓸때 써야하는 코드
 		SqlSessionFactory factory = (SqlSessionFactory) req.getServletContext().getAttribute("sqlSessionFactory");
 		SqlSession sqlSession = factory.openSession();
 
